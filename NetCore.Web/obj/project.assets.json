@@ -3123,6 +3123,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "NetCore.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NetCore.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCore.Data.dll": {}
+        }
+      },
+      "NetCore.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NetCore.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NetCore.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCore.Services.dll": {}
+        }
       }
     }
   },
@@ -9048,11 +9071,22 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "NetCore.Data/1.0.0": {
+      "type": "project",
+      "path": "../NetCore.Data/NetCore.Data.csproj",
+      "msbuildProject": "../NetCore.Data/NetCore.Data.csproj"
+    },
+    "NetCore.Services/1.0.0": {
+      "type": "project",
+      "path": "../NetCore.Services/NetCore.Services.csproj",
+      "msbuildProject": "../NetCore.Services/NetCore.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
+      "NetCore.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9061,11 +9095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj",
+      "projectUniqueName": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj",
       "projectName": "NetCore.Web",
-      "projectPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj",
+      "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj",
       "packagesPath": "C:\\Users\\LJG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\obj\\",
+      "outputPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LJG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9081,7 +9115,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj": {
+              "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "NetCore.Web/1.0.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "NetCore.Services": "1.0.0"
         },
         "runtime": {
           "NetCore.Web.dll": {}
@@ -2012,6 +2013,19 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "NetCore.Data/1.0.0": {
+        "runtime": {
+          "NetCore.Data.dll": {}
+        }
+      },
+      "NetCore.Services/1.0.0": {
+        "dependencies": {
+          "NetCore.Data": "1.0.0"
+        },
+        "runtime": {
+          "NetCore.Services.dll": {}
+        }
       }
     }
   },
@@ -3056,6 +3070,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "NetCore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCore.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

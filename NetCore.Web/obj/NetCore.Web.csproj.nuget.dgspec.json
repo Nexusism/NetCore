@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj": {}
+    "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj": {
+    "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj",
-        "projectName": "NetCore.Web",
-        "projectPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj",
+        "projectUniqueName": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj",
+        "projectName": "NetCore.Data",
+        "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj",
         "packagesPath": "C:\\Users\\LJG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\obj\\",
+        "outputPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LJG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,124 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj",
+        "projectName": "NetCore.Services",
+        "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj",
+        "packagesPath": "C:\\Users\\LJG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LJG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj": {
+                "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj",
+        "projectName": "NetCore.Web",
+        "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj",
+        "packagesPath": "C:\\Users\\LJG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LJG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj": {
+                "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
