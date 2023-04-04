@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj": {}
+    "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\NetCore.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj": {
+    "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\NetCore.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj",
+        "projectUniqueName": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\NetCore.Data.csproj",
         "projectName": "NetCore.Data",
-        "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj",
+        "projectPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\NetCore.Data.csproj",
         "packagesPath": "C:\\Users\\LJG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\obj\\",
+        "outputPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LJG\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj",
+      "projectUniqueName": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Services\\NetCore.Services.csproj",
       "projectName": "NetCore.Services",
-      "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\NetCore.Services.csproj",
+      "projectPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Services\\NetCore.Services.csproj",
       "packagesPath": "C:\\Users\\LJG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Services\\obj\\",
+      "outputPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LJG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj": {
-              "projectPath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Data\\NetCore.Data.csproj"
+            "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\NetCore.Data.csproj": {
+              "projectPath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Data\\NetCore.Data.csproj"
             }
           }
         }

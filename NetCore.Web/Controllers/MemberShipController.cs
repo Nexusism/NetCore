@@ -11,6 +11,11 @@ namespace NetCore.Web.Controllers
     {
         // 의존성 주입 - 생성자 주입(닷넷코어 기본제공)
         private IUser _user;
+
+        public MemberShipController(IUser user)
+        {
+            _user = user;
+        }
         public IActionResult Index()
         {
             return View();

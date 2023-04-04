@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wQzlilES2hU2ntkQCPa3FVX+VT3Y4IAjra2CUsUNuyOsxPxk18t93yao5QAmSqVd7ZB4TatpJXBRTtOJHmQJrA==",
+  "dgSpecHash": "Sfsq/vCCT2SMo0sxpZjz/aqagi4YJmZnv6yL4kPZOtoH2u4bgDzBEthT3VlMAYe88k6lo/0MOPaHhxspLNuZXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LJG\\Desktop\\닷넷코어\\NetCore.Web\\NetCore.Web.csproj",
+  "projectFilePath": "C:\\Users\\LJG\\Desktop\\ERP개발\\Project\\NetCore\\NetCore.Web\\NetCore.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LJG\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\LJG\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
